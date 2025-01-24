@@ -1,0 +1,140 @@
+
+:root {
+    --primary-color: #4A6670; 
+    --secondary-color: #668F80; 
+    --accent-color1: #A0AF84; 
+    --accent-color2: #C3B59F; 
+
+body {
+    font-family: sans-serif;
+    background-color: var(--accent-color1);
+    margin: 0;
+    padding: 0;
+    color: var(--secondary-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo-box img {
+    width: 150px;
+    height: auto;
+}
+
+nav a {
+    color: var(--accent-color2);
+    margin: 0 15px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: var('Open Sans');
+}
+
+nav a:hover {
+    color: var(--accent-color1);
+}
+
+.sociallinks a {
+    margin: 0 10px;
+}
+
+.sociallinks a img {
+    width: 30px;
+    height: 30px;
+}
+
+.sociallinks a:hover img {
+    transform: scale(1.1);
+}
+
+.sociallinks a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto; 
+    overflow: hidden;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: var(--font-family-secondary);
+    font-size: 3rem;
+    color: var(--accent-color2);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero article {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: var(--text-color-light, #ffffff);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.hero article img {
+    float: right;
+    margin-left: 20px;
+    max-width: 200px;
+}
+
+.hero article p {
+    font-family: var(--font-family-primary);
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+section h2 {
+    font-family: var(--font-family-secondary);
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+section p {
+    font-family: var("Open Sans");
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--primary-color);
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding: 20px;
+    text-align: center;
+    color: var(--accent-color2); 
+}
+
+footer p {
+    margin: 10px 0;
+    font-family: var(--font-family-primary);
+}
+}
